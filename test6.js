@@ -17435,8 +17435,23 @@ const Gx = new(Tx.default = Kx.default)({
                 className: "dashboard",
                 children: Q.jsxs("div", {
                     className: "dashboard__top",
-					// Добавление в слайдер потомков
-                    children: []
+                    children: [Q.jsx(rS, {})]
+					/*
+				Object.values(e).map(((e, n) => e ? Q.jsx("div", {
+                        className: "dashboard__top__item",
+                        style: {
+                            backgroundImage: `url('${null==e?void 0:e.img}')`
+                        },
+                        onClick: () => t(e),
+                        children: Q.jsxs("div", {
+                            className: "price",
+                            children: ["1 день ", null == e ? void 0 : e.price, "₽"]
+                        })
+                    }, n) : Q.jsx("div", {
+                        className: "dashboard__top__item skeleton"
+                    }, n)))	
+				
+					*/
                 })
             }), Q.jsxs("div", {
                 className: "dashboard__catalog",
