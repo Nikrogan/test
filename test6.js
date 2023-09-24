@@ -17396,10 +17396,10 @@ const Gx = new(Tx.default = Kx.default)({
                     className: "server__description",
                     children: [Q.jsx("p", {
                         className: "server__description__name",
-                        children: "DREAM RUST"
+                        children: "Название вашего сервера"
                     }), Q.jsx("p", {
                         className: "server__description__title",
-                        children: "SClassic | Unique Plugins"
+                        children: "Описание вашего сервера"
                     })]
                 }), Q.jsx("p", {
                     className: "server__status",
@@ -17430,12 +17430,14 @@ const Gx = new(Tx.default = Kx.default)({
             {
                 setCurrentPrivilege: t
             } = xx(EC);
+		console.log(e);
         return Q.jsxs(Hg, {
             children: [Q.jsx("div", {
                 className: "dashboard",
                 children: Q.jsxs("div", {
                     className: "dashboard__top",
                     children: [Q.jsx(rS, {})]
+					// Отвечает за слайдер с привелегиями
 					/*
 				Object.values(e).map(((e, n) => e ? Q.jsx("div", {
                         className: "dashboard__top__item",
