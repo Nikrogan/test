@@ -16686,6 +16686,7 @@ const _x = [5828520, 5828521, 5828522, 6135082, 6135081, 6135080],
                     r(e.items.filter((e => !_x.includes(e.id))));
                     const t = t => {
                         const n = e.items.find((e => e.id === t));
+						console.log(items);
                         return {
                             ...n,
                             about: n && JSON.parse(n?.items[0].about)
