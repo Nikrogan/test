@@ -16694,7 +16694,7 @@ const _x = [5828520, 5828521, 5828522, 6135082, 6135081, 6135080],
                             about: n && JSON.parse(n?.items[0].about)
                         }
                     };
-                    console.log(SX)
+                    console.log(Sx,e, _x)
                     if (!t(Sx.DREAM)) throw new Error("Ошибка на сервере, нужно связаться с админом");
                     i({
                         [Ex.DREAM]: t(Sx.DREAM),
