@@ -16691,7 +16691,7 @@ const _x = [6466620, 5828521, 5828522, 6135082, 6135081, 6135080],
 						console.log(e);
                         return {
                             ...n,
-                            about: n && JSON.parse(n?.items[0].about)
+                            about: n?.items[0].about
                         }
                     };
                     console.log(Sx,e, _x)
